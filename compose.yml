@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: dockerfile
+    container_name: match_app
+    ports:
+      - "8080:8002"
+    volumes:
+      - .:/go/src/app
