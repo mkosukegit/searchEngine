@@ -1,4 +1,4 @@
-FROM golang:1.17.6-alpine
+FROM golang:1.18.2-alpine
 
 # ホストのファイルをコンテナの作業ディレクトリにコピー
 COPY . /go/src/app

@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: dockerfile
-    container_name: match_app
+    container_name: search_app
     ports:
       - "8080:8002"
     volumes:
