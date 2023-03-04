@@ -3,7 +3,8 @@ package code
 type Code string
 
 const (
-	NotExist     Code = "NotExist"
-	AlreadyExist Code = "AlreadyExist"
-	Unknown      Code = "Unknown"
+	NotExist       Code = "NotExist"
+	AlreadyExist   Code = "AlreadyExist"
+	Unknown        Code = "Unknown"
+	DBConnectError Code = "DBConnectError"
 )
